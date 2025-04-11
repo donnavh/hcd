@@ -145,7 +145,7 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 #video-mask {
-	box-shadow: 2em 2em 2em olivedrab;
+	box-shadow: 2em 2em 2em rgb(38, 59, 180);
 }
 
 
