@@ -1,15 +1,18 @@
-captions[0] = ['3.8','8.1'];
-captions[1] = ['8.1','10'];
-captions[2] = ['10.8','12.5'];
-	//And blood-black nothingness began to spin
-captions[3] = ['12.5','15.6'];
-captions[4] = ['17.369','20'];
-captions[5] = ['20.1','23.3'];
-	//Fuck off, skin-job!
-captions[6] = ['23.3','25.2'];
-	
-captions[7] = ['26.8','31.6'];
-captions[8] = ['32.7','33'];
+captions[0] = ['2.1','4.7'];
+captions[1] = ['5.0','7.6'];
+captions[2] = ['9.8','11.8'];
+	//and then there's the sound of water
+
+	//mensen juichen 
+captions[3] = ['14.3','17.5'];
+captions[4] = ['20.9','21.6'];
+captions[5] = ['22.6','24.1'];
+	//Bye Stormy
+captions[6] = ['26.6','28.4'];
+	// move move Excuse me
+captions[7] = ['28.5','30.0'];
+	// he's got a gun!
+captions[8] = ['78.2','80.9'];
 captions[9] = ['33.2','34'];
 	//Have you ever been in an institution?
 captions[10] = ['34','36'];
