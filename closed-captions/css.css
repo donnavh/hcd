@@ -9,19 +9,26 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	/* bottom: 2em; */
 	background-color: white;
+	
+}
 
+#closed-captions .sounds {
+	position: absolute;
+	bottom: 2em;
 }
 
 #closed-captions .thomas {
-	/* color: blue; */
+	color: blue;
+	background-color: white;
 }
 
-#closed-captions .on {
+#closed-captions p.on {
 	opacity: 1;
 }
 
-#closed-captions .off {
+#closed-captions p.off {
 	transition: .2s;
 	opacity: 0;
 }
@@ -36,7 +43,7 @@ Feel free to adjust the defaults to your needs.
 
 }
 
-.thomas {
+.thomas .on {
 	font-weight: bolder;
 	color: blue;
 }
@@ -50,6 +57,7 @@ The first paragraph, with extended timing for
 You probably want to change the styling.
 ********************************************** */
 .p0 span {
+	color: red;
 	opacity: 0;
 	font-family: brenner;
 }
@@ -127,9 +135,24 @@ You probably want to change the styling.
 }
 
 .p1.on {
-	background: hotpink;
+	/* background-color: hotpink; */
 	color: red;
 }
+
+.p2.on {
+	color: red;
+}
+
+.p5.on {
+	color: rgb(112, 31, 166);
+}
+
+.p.thomas.on {
+	color:chocolate;
+}
+
+
+
 
 /* **********************************************
 Sounds.
@@ -145,8 +168,27 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 #video-mask {
-	box-shadow: 2em 2em 2em rgb(38, 59, 180);
+	box-shadow: 2em 2em 2em rgb(38, 180, 52);
 }
+
+.sound2 #video-mask {
+	box-shadow: 2em 2em 2em rgb(189, 18, 46);
+}
+
+.sound3 #video-mask {
+	box-shadow: 2em 2em 2em rgb(79, 180, 227);
+}
+
+.sound4 #video-mask {
+	box-shadow: 1em 2em 2em 3em black;
+}
+
+.sounds {
+	position: absolute;
+
+}
+
+
 
 
 /* **********************************************
@@ -159,7 +201,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	justify-content: center;
-	/* background-color: black; */
+	background-color: rgb(4, 12, 47);
 }
 
 #video-container {
@@ -175,7 +217,7 @@ body {
 }
 
 iframe {
-	width: 80vw;
-	height: 53.33333333vw;
+	width: 60vw;
+	height: 45vw;
 	margin-top: -0.35vw;
 }

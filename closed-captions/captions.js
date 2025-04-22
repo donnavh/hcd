@@ -4,43 +4,57 @@ captions[2] = ['9.8','11.8'];
 	//and then there's the sound of water
 
 	//mensen juichen 
-captions[3] = ['14.3','17.5'];
-captions[4] = ['20.9','21.6'];
-captions[5] = ['22.6','24.1'];
-	//Bye Stormy
-captions[6] = ['26.6','28.4'];
-	// move move Excuse me
-captions[7] = ['28.5','30.0'];
-	// he's got a gun!
-captions[8] = ['78.2','80.9'];
-captions[9] = ['33.2','34'];
-	//Have you ever been in an institution?
-captions[10] = ['34','36'];
-captions[11] = ['36','36.3'];
-captions[12] = ['36.5','37.3'];
-	//Do they keep you in a cell?
-captions[13] = ['37.3','38.6'];
-captions[14] = ['38.6','38.9'];
-captions[15] = ['39.1','39.9'];
+captions[3] = ['11.3','15.5'];
+
+// 1026
+captions[4] = ['14.1','17.3'];
+// 1027
+captions[5] = ['20.8','22.4'];
+
+
+	//1028
+captions[6] = ['22.5','24.1'];
+
+	// 1029
+captions[7] = ['26.4','28.3'];
+
+	// 1030
+captions[8] = ['28.3','29.89'];
+
+
+// 1031
+captions[9] = ['78.2','80.9'];
+
+	//1
+captions[10] = ['138.3','142.3'];
+captions[11] = ['142.9','145.4'];
+captions[12] = ['149.4','151.1'];
+
+	//1036
+captions[13] = ['175.0','177.5'];
+
+captions[14] = ['240.3','241.7'];
+
+captions[15] = ['',''];
 	//When you're not performing your duties, do they keep you in a little box?
-captions[16] = ['39.9','42.8'];
-captions[17] = ['42.8','43.1'];
-captions[18] = ['43.3','44.1'];
+captions[16] = ['',''];
+captions[17] = ['',''];
+captions[18] = ['',''];
 	//Interlinked
-captions[19] = ['44','44.5'];
-captions[20] = ['45','45.7'];
+captions[19] = ['',''];
+captions[20] = ['',''];
 	//What's it like to hold the hand of someone you love?
-captions[21] = ['45.7','47.6'];
-captions[22] = ['47.6','48.1'];
-captions[23] = ['48.3','49'];
+captions[21] = ['',''];
+captions[22] = ['',''];
+captions[23] = ['',''];
 	//Did they teach you how to feel, finger to finger?
-captions[24] = ['49.1','50.9'];
-captions[25] = ['50.9','51.4'];
-captions[26] = ['51.6','52.3'];
+captions[24] = ['',''];
+captions[25] = ['',''];
+captions[26] = ['',''];
 	//Do you long for having your heart interlinked?
-captions[27] = ['52.3','54'];
-captions[28] = ['54','54.5'];
-captions[29] = ['54.7','55.4'];
+captions[27] = ['',''];
+captions[28] = ['',''];
+captions[29] = ['',''];
 	//Do you dream about being interlinked?
 captions[30] = ['55.4','57.2'];
 captions[31] = ['57.2','58'];
