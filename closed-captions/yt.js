@@ -17,6 +17,25 @@ function onYouTubeIframeAPIReady() {
 	});
 }
 
+const video = document.getElementById("movie");
+const videoMask = document.getElementById("video-mask");
+
+
+function updateSoundEffect() {
+    const currentTime = video.currentTime;
+
+    // Loop through the sounds array to find matching times
+    sounds.forEach((soundTime, index) => {
+        if (Math.abs(currentTime - soundTime) < 0.5) {  // Trigger within 0.5s range
+            // Add the sound class to the video mask based on the sound index
+            videoMask.classList.add(soundClasses[index]);
+        } else {
+            // Remove the sound class after the sound has passed
+            videoMask.classList.remove(soundClasses[index]);
+        }
+    });
+}
+
 function initialize(){
 	// Update the controls on load
 	addSpans();

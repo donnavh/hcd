@@ -1,22 +1,23 @@
 captions[0] = ['2.1','4.7'];
-captions[1] = ['5.0','7.6'];
-captions[2] = ['9.8','11.8'];
+captions[1] = ['4.7','5.4'];
+captions[2] = ['5.3','8.3'];
 	//and then there's the sound of water
 
 	//mensen juichen 
 captions[3] = ['11.3','15.5'];
 
 // 1026
-captions[4] = ['14.1','17.3'];
+captions[4] = ['13.5','14.8'];
 // 1027
-captions[5] = ['20.8','22.4'];
+
+captions[5] = ['14.8','16.4'];
 
 
 	//1028
-captions[6] = ['22.5','24.1'];
+captions[6] = ['21.8','24.1'];
 
 	// 1029
-captions[7] = ['26.4','28.3'];
+captions[7] = ['23.4','25.3'];
 
 	// 1030
 captions[8] = ['28.3','29.89'];

@@ -5,27 +5,41 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+#closed-captions{
+	position: absolute;
+	bottom: 2em;
+	left: 50% 50%;
+	/* transform: translate(-50%, -50%); */
+	width: 100%;
+}
+
 #closed-captions p {
 	opacity: 0;
-	transition: .05s;
+	transition: .01s;
+	font-size: 2em;
 	position: absolute;
 	/* bottom: 2em; */
+	padding: 10px 20px;
+	border-radius: 10px;
 	background-color: white;
 	
 }
 
 #closed-captions .sounds {
 	position: absolute;
-	bottom: 2em;
+	bottom: -2em;
 }
 
-#closed-captions .thomas {
+
+
+/* #closed-captions .thomas {
 	color: blue;
 	background-color: white;
-}
+} */
 
 #closed-captions p.on {
 	opacity: 1;
+	
 }
 
 #closed-captions p.off {
@@ -135,12 +149,19 @@ You probably want to change the styling.
 }
 
 .p1.on {
-	/* background-color: hotpink; */
-	color: red;
+	opacity: 1;
+	font-size: 1.5em;
+	background-color: hotpink;
+	transition: opacity 1s ease-out, font-size 0.5s ease-in;
+	/* color: red; */
 }
 
 .p2.on {
-	color: red;
+	opacity: 1;
+	font-size: 1.8em;
+	color: purple;
+	transition: opacity 0.5s ease-out, font-size 1s ease-in;
+	/* color: red; */
 }
 
 .p5.on {
@@ -166,13 +187,33 @@ Sounds.
 	background: rgb(4, 4, 68);
 }
 
+.sound1 p.on {
+	font-size: 2em;
+    color: rgb(0, 0, 0);  /* Adding some flair for sound effects */
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+}
+
+.sound2 p.on {
+	font-size: 1.8em;
+    color: red;
+    text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.8);
+
+}
+
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 #video-mask {
-	box-shadow: 2em 2em 2em rgb(38, 180, 52);
+	box-shadow: 2em 2em 2em 2em rgb(38, 180, 52);
+	animation: pulseSound 1s alternate;
 }
 
 .sound2 #video-mask {
-	box-shadow: 2em 2em 2em rgb(189, 18, 46);
+	box-shadow: 2em 2em 2em 2em rgb(189, 18, 46);
+	animation: pulseSound 2s alternate;
+}
+
+@keyframes pulseSound {
+    0% { box-shadow: 0 0 15px 5px rgba(38, 180, 52, 0.6); }
+    100% { box-shadow: 0 0 35px 15px rgba(38, 180, 52, 1); }
 }
 
 .sound3 #video-mask {
@@ -198,7 +239,7 @@ Basic layout.
 
 body {
 	display: grid;
-	height: 100vh;
+	height: 90vh;
 	margin: 0;
 	justify-content: center;
 	background-color: rgb(4, 12, 47);
@@ -206,10 +247,11 @@ body {
 
 #video-container {
 	margin: auto;
+	position: relative;
 }
 
 #video-mask {
-	/* aspect-ratio: 240.5/100; */
+	
 	display: grid;
 	overflow: hidden;
 	align-content: center;
